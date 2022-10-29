@@ -2,6 +2,7 @@
   --background-color: #eee;
   --submit-button-color: #b3d470;
   --submit-button-hover-color: #90b051;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -13,8 +14,6 @@
 body {
   background-color: var(--background-color);
   overflow-x: hidden;
-  scroll-behavior: smooth;
-  /* min-width: 950px; */
 }
 
 /* Header -- includes image and nav links */
